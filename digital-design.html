@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Digital Design & SMAD work by Madison Wasaff — Multimedia, Graphic Design, Infographics">
+  <meta name="author" content="Madison Wasaff">
+  <title>Digital Design · Madison Wasaff</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="page-fade">
+
+<!-- ═══ NAVIGATION ═══ -->
+<nav class="site-nav navbar navbar-expand-lg" id="siteNav">
+  <div class="container">
+    <a class="nav-brand navbar-brand" href="index.html"><span class="brand-dot"></span>Madison Wasaff</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="ux-design.html" role="button" data-bs-toggle="dropdown">UX Design</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="ux-design.html#research">User Research</a></li>
+            <li><a class="dropdown-item" href="ux-design.html#narratives">User Narratives</a></li>
+            <li><a class="dropdown-item" href="ux-design.html#ia">Information Architecture</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="art.html" role="button" data-bs-toggle="dropdown">Art</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="art.html#3d">3D Design</a></li>
+            <li><a class="dropdown-item" href="art.html#photography">Photography</a></li>
+            <li><a class="dropdown-item" href="art.html#printmaking">Printmaking</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link active" href="digital-design.html">Digital Design</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ PAGE HERO ═══ -->
+<section class="gallery-hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 fade-up">
+        <p class="section-label">SMAD · Multimedia</p>
+        <h1 class="gallery-hero-title">Digital <em style="font-style:italic;color:var(--green-deep)">Design</em></h1>
+        <p style="font-size:1.05rem;color:var(--muted);max-width:520px;margin-top:20px;line-height:1.8;">
+          Digital design projects spanning graphic design, infographics, motion, and multimedia
+          created through my Media Arts and Design coursework at JMU.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FEATURED PROJECT ═══ -->
+<section class="py-5 bg-cream">
+  <div class="container py-4">
+    <p class="section-label fade-up">Featured Work</p>
+    <h2 class="section-title mb-5 fade-up">Featured <em>Project</em></h2>
+
+    <div class="row g-5 align-items-center fade-up">
+      <div class="col-lg-7">
+        <!--
+          ══════════════════════════════════════
+          FEATURED PROJECT IMAGE
+          Replace src with: images/digital-featured.jpg
+          ══════════════════════════════════════
+        -->
+        <img
+          src="images/digital-featured.jpg"
+          alt="Featured Digital Project"
+          style="width:100%;"
+          onerror="this.parentElement.innerHTML='<div class=\'upload-placeholder\' style=\'aspect-ratio:16/9\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 5v14M5 12l7-7 7 7\'/></svg><span>Add digital-featured.jpg<br>to images/ folder</span></div>'"
+        >
+      </div>
+      <div class="col-lg-5">
+        <p class="project-card-tag">Graphic Design · Infographic</p>
+        <h3 style="font-family:var(--font-display);font-size:2rem;font-weight:400;margin-bottom:16px;">Featured Project Title</h3>
+        <p style="color:var(--muted);line-height:1.8;margin-bottom:24px;">
+          <!--
+            FEATURED PROJECT DESCRIPTION
+            Describe your most impressive digital design project here.
+            What was the brief? What tools did you use? What was the outcome?
+            This is your spotlight piece — make it compelling.
+          -->
+          Describe your featured project here. What was the assignment or brief?
+          What tools and methods did you use? What were the design goals, and
+          how did you achieve them? Add context, process, and outcomes.
+        </p>
+        <div class="d-flex flex-wrap gap-2 mb-4">
+          <span class="skill-tag green">Adobe Illustrator</span>
+          <span class="skill-tag green">InDesign</span>
+          <span class="skill-tag green">Photoshop</span>
+        </div>
+        <!--
+          LINK TO PROJECT FILE
+          e.g.: href="documents/featured-project.pdf"
+          or link to a Behance/external page
+        -->
+        <a href="documents/digital-featured.pdf" class="btn-portfolio btn-portfolio-green" target="_blank">View Full Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROJECT GRID ═══ -->
+<section class="py-5">
+  <div class="container py-4">
+    <p class="section-label fade-up">Digital Design</p>
+    <h2 class="section-title mb-5 fade-up">All <em>Projects</em></h2>
+
+    <!--
+      ══════════════════════════════════════
+      DIGITAL PROJECT CARDS
+      HOW TO ADD A PROJECT:
+        1. Copy one col-md-6 or col-md-4 block
+        2. Update the image src (images/digital-N.jpg)
+        3. Update tag, title, description
+        4. Update the href to your PDF or link
+        5. Update the skill tags
+
+      HOW TO ADD A PDF DOCUMENT:
+        - Place PDF in the documents/ folder
+        - Set href="documents/your-file.pdf"
+        - Set target="_blank"
+      ══════════════════════════════════════
+    -->
+
+    <div class="row g-4">
+
+      <div class="col-md-6 fade-up">
+        <div class="project-card h-100">
+          <img
+            src="images/digital-1.jpg"
+            alt="Digital Project 1"
+            onerror="this.src='';this.parentElement.innerHTML+='<div class=\'upload-placeholder\' style=\'aspect-ratio:16/9\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 5v14M5 12l7-7 7 7\'/></svg><span>images/digital-1.jpg</span></div>';this.remove()"
+          >
+          <div class="project-card-body">
+            <p class="project-card-tag">Graphic Design</p>
+            <h3 class="project-card-title">Project One Title</h3>
+            <p class="project-card-desc">Describe this digital project — the brief, your process, tools used, and the final outcome. What did you learn? What makes it successful?</p>
+            <div class="d-flex gap-3 flex-wrap align-items-center">
+              <a href="documents/digital-1.pdf" class="btn-portfolio btn-portfolio-green" target="_blank">View Project</a>
+              <span class="skill-tag green">Illustrator</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 fade-up">
+        <div class="project-card h-100">
+          <img
+            src="images/digital-2.jpg"
+            alt="Digital Project 2"
+            onerror="this.src='';this.parentElement.innerHTML+='<div class=\'upload-placeholder\' style=\'aspect-ratio:16/9\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 5v14M5 12l7-7 7 7\'/></svg><span>images/digital-2.jpg</span></div>';this.remove()"
+          >
+          <div class="project-card-body">
+            <p class="project-card-tag">Motion / Video</p>
+            <h3 class="project-card-title">Project Two Title</h3>
+            <p class="project-card-desc">Describe this digital project — the brief, your process, tools used, and the final outcome. Add your own content here.</p>
+            <div class="d-flex gap-3 flex-wrap align-items-center">
+              <a href="documents/digital-2.pdf" class="btn-portfolio btn-portfolio-green" target="_blank">View Project</a>
+              <span class="skill-tag green">After Effects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 fade-up">
+        <div class="project-card h-100">
+          <img
+            src="images/digital-3.jpg"
+            alt="Digital Project 3"
+            onerror="this.src='';this.parentElement.innerHTML+='<div class=\'upload-placeholder\' style=\'aspect-ratio:4/3\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 5v14M5 12l7-7 7 7\'/></svg><span>images/digital-3.jpg</span></div>';this.remove()"
+          >
+          <div class="project-card-body">
+            <p class="project-card-tag">Infographic</p>
+            <h3 class="project-card-title">Project Three</h3>
+            <p class="project-card-desc">Brief description of this infographic or design piece.</p>
+            <a href="documents/digital-3.pdf" class="btn-portfolio btn-portfolio-green" style="font-size:0.72rem;padding:10px 18px;" target="_blank">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 fade-up">
+        <div class="project-card h-100">
+          <img
+            src="images/digital-4.jpg"
+            alt="Digital Project 4"
+            onerror="this.src='';this.parentElement.innerHTML+='<div class=\'upload-placeholder\' style=\'aspect-ratio:4/3\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 5v14M5 12l7-7 7 7\'/></svg><span>images/digital-4.jpg</span></div>';this.remove()"
+          >
+          <div class="project-card-body">
+            <p class="project-card-tag">Web Design</p>
+            <h3 class="project-card-title">Project Four</h3>
+            <p class="project-card-desc">Brief description of this web design or multimedia project.</p>
+            <a href="documents/digital-4.pdf" class="btn-portfolio btn-portfolio-green" style="font-size:0.72rem;padding:10px 18px;" target="_blank">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 fade-up">
+        <div class="project-card h-100">
+          <img
+            src="images/digital-5.jpg"
+            alt="Digital Project 5"
+            onerror="this.src='';this.parentElement.innerHTML+='<div class=\'upload-placeholder\' style=\'aspect-ratio:4/3\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 5v14M5 12l7-7 7 7\'/></svg><span>images/digital-5.jpg</span></div>';this.remove()"
+          >
+          <div class="project-card-body">
+            <p class="project-card-tag">Typography</p>
+            <h3 class="project-card-title">Project Five</h3>
+            <p class="project-card-desc">Brief description of this typography or design project.</p>
+            <a href="documents/digital-5.pdf" class="btn-portfolio btn-portfolio-green" style="font-size:0.72rem;padding:10px 18px;" target="_blank">View</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DOCUMENTS SECTION ═══ -->
+<section class="py-5 bg-cream">
+  <div class="container py-4">
+    <p class="section-label fade-up">Downloads</p>
+    <h2 class="section-title mb-5 fade-up">Project <em>Files</em></h2>
+    <!--
+      ══════════════════════════════════════
+      PROJECT PDF DOWNLOADS
+      Add more doc-card items below to link
+      to any PDF or document file.
+      ══════════════════════════════════════
+    -->
+    <div class="row g-3">
+      <div class="col-md-6 fade-up">
+        <a href="documents/digital-featured.pdf" class="doc-card" target="_blank">
+          <div class="doc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </div>
+          <div>
+            <div class="doc-name">Featured Project PDF</div>
+            <div class="doc-meta">PDF · Full case study</div>
+          </div>
+          <div class="ms-auto">↓</div>
+        </a>
+      </div>
+      <div class="col-md-6 fade-up">
+        <a href="documents/madison-wasaff-resume.pdf" class="doc-card" target="_blank">
+          <div class="doc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </div>
+          <div>
+            <div class="doc-name">Resume</div>
+            <div class="doc-meta">PDF · madison-wasaff-resume.pdf</div>
+          </div>
+          <div class="ms-auto">↓</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section class="contact-strip">
+  <div class="container">
+    <p class="section-label justify-content-center mb-3">Get In Touch</p>
+    <a href="mailto:youremail@email.com" class="contact-email d-inline-block">youremail@email.com</a>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <p class="footer-name">Madison Wasaff</p>
+        <p class="footer-tagline">Interactive Design &amp; Art Student</p>
+      </div>
+      <div class="col-lg-6 text-lg-end">
+        <ul class="list-unstyled d-flex flex-wrap gap-3 justify-content-lg-end mb-0">
+          <li><a class="footer-link" href="index.html">Home</a></li>
+          <li><a class="footer-link" href="about.html">About</a></li>
+          <li><a class="footer-link" href="ux-design.html">UX Design</a></li>
+          <li><a class="footer-link" href="art.html">Art</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <p class="footer-copy mb-0"><span class="footer-accent-dot"></span>&copy; 2025 Madison Wasaff.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 20));
+  const observer = new IntersectionObserver((e) => e.forEach(x => { if(x.isIntersecting) x.target.classList.add('visible'); }), {threshold: 0.12});
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

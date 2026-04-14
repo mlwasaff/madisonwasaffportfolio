@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="About Madison Wasaff — Interactive Design & Art Student at JMU">
+  <meta name="author" content="Madison Wasaff">
+  <title>About · Madison Wasaff</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="page-fade">
+
+<!-- ═══ NAVIGATION ═══ -->
+<nav class="site-nav navbar navbar-expand-lg" id="siteNav">
+  <div class="container">
+    <a class="nav-brand navbar-brand" href="index.html">
+      <span class="brand-dot"></span>
+      Madison Wasaff
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="ux-design.html" role="button" data-bs-toggle="dropdown">UX Design</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="ux-design.html#research">User Research</a></li>
+            <li><a class="dropdown-item" href="ux-design.html#narratives">User Narratives</a></li>
+            <li><a class="dropdown-item" href="ux-design.html#ia">Information Architecture</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="art.html" role="button" data-bs-toggle="dropdown">Art</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="art.html#3d">3D Design</a></li>
+            <li><a class="dropdown-item" href="art.html#photography">Photography</a></li>
+            <li><a class="dropdown-item" href="art.html#printmaking">Printmaking</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="digital-design.html">Digital Design</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ ABOUT HERO ═══ -->
+<section class="about-page-hero">
+  <div class="container">
+    <div class="row align-items-start gy-5">
+
+      <div class="col-lg-5 fade-up">
+        <div class="about-headshot">
+          <!--
+            ══════════════════════════════════════
+            HEADSHOT PHOTO
+            Place your photo at: images/headshot.jpg
+            Recommended: portrait orientation, 400×530px+
+            ══════════════════════════════════════
+          -->
+          <img
+            src="images/headshot.jpg"
+            alt="Madison Wasaff"
+            onerror="this.parentElement.innerHTML='<div class=\'upload-placeholder\' style=\'aspect-ratio:3/4;max-width:400px\'><svg viewBox=\'0 0 24 24\'><path d=\'M12 5v14M5 12l7-7 7 7\'/></svg><span>Add headshot.jpg<br>to images/ folder</span></div>'"
+          >
+        </div>
+      </div>
+
+      <div class="col-lg-6 offset-lg-1 fade-up">
+        <p class="section-label">About</p>
+        <h1 class="section-title mb-4">Hi, I'm <em>Madison</em></h1>
+
+        <p class="about-bio">
+          As a current junior at James Madison University, I'm committed to my major
+          in Media Arts and Design with a minor in Studio Art. My concentration in
+          Interactive Design has influenced my passion for UI/UX design, web design,
+          digital marketing, and multimedia.
+        </p>
+        <p class="about-bio">
+          I thrive on exploring new mediums and pushing creative boundaries in my
+          studio art classes, where I eagerly experiment with various multimedia
+          forms, including 2D and 3D design, graphic design, and photography.
+        </p>
+        <p class="about-bio">
+          <!--
+            ══════════════════════════════════════
+            PERSONAL BIO — edit this paragraph
+            to include your own story, interests,
+            goals, or experiences.
+            ══════════════════════════════════════
+          -->
+          Add your personal story here — your background, what inspires you,
+          your goals, internships, experiences, or anything else you'd like
+          visitors to know about you.
+        </p>
+
+        <!-- Stats -->
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-number">3<em style="font-size:1.5rem;color:var(--pink-deep)">rd</em></div>
+            <div class="stat-label">Year at JMU</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" style="color:var(--pink-deep)">SMAD</div>
+            <div class="stat-label">Major</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" style="font-size:1.6rem">Studio</div>
+            <div class="stat-label">Art Minor</div>
+          </div>
+        </div>
+
+        <!-- Resume Download -->
+        <div class="mb-4">
+          <!--
+            ══════════════════════════════════════
+            RESUME PDF
+            Place your resume at: documents/madison-wasaff-resume.pdf
+            ══════════════════════════════════════
+          -->
+          <a href="documents/madison-wasaff-resume.pdf" class="doc-card" target="_blank">
+            <div class="doc-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="12" y1="18" x2="12" y2="12"/>
+                <line x1="9" y1="15" x2="15" y2="15"/>
+              </svg>
+            </div>
+            <div>
+              <div class="doc-name">Madison Wasaff — Resume</div>
+              <div class="doc-meta">PDF · Click to Download</div>
+            </div>
+            <div class="ms-auto">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 17V3M12 17l-4-4M12 17l4-4M3 21h18"/>
+              </svg>
+            </div>
+          </a>
+        </div>
+
+        <!-- Skills -->
+        <p class="section-label mt-4 mb-3">Skills &amp; Tools</p>
+        <div>
+          <!--
+            ══════════════════════════════════════
+            SKILLS — add or remove tags as needed
+            ══════════════════════════════════════
+          -->
+          <span class="skill-tag pink">UI/UX Design</span>
+          <span class="skill-tag pink">User Research</span>
+          <span class="skill-tag pink">Wireframing</span>
+          <span class="skill-tag green">Figma</span>
+          <span class="skill-tag green">Adobe Suite</span>
+          <span class="skill-tag green">Procreate</span>
+          <span class="skill-tag">Photography</span>
+          <span class="skill-tag">3D Design</span>
+          <span class="skill-tag">Printmaking</span>
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">Digital Marketing</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EDUCATION ═══ -->
+<section class="py-5 bg-cream">
+  <div class="container py-4">
+    <p class="section-label fade-up">Education</p>
+    <h2 class="section-title mb-5 fade-up">Academic <em>Background</em></h2>
+    <div class="row gy-4">
+
+      <div class="col-md-6 fade-up">
+        <div class="project-card h-100">
+          <div class="project-card-body">
+            <p class="project-card-tag">2022 – Present</p>
+            <h3 class="project-card-title">James Madison University</h3>
+            <p class="project-card-desc">
+              B.S. in Media Arts and Design (SMAD)<br>
+              Concentration: Interactive Design<br>
+              Minor: Studio Art<br>
+              Expected Graduation: Spring 2026
+            </p>
+            <div>
+              <span class="skill-tag">UI/UX</span>
+              <span class="skill-tag">Web Design</span>
+              <span class="skill-tag">Studio Art</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 fade-up">
+        <div class="project-card h-100">
+          <div class="project-card-body">
+            <p class="project-card-tag">Experience &amp; Activities</p>
+            <h3 class="project-card-title">Involvement</h3>
+            <p class="project-card-desc">
+              <!--
+                ══════════════════════════════════════
+                INVOLVEMENT — edit with your clubs,
+                internships, jobs, organizations, etc.
+                ══════════════════════════════════════
+              -->
+              Add your clubs, internships, jobs, volunteer work,
+              organizations, awards, or other activities here.
+              Each line can be a separate bullet or paragraph.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ADDITIONAL DOCUMENTS ═══ -->
+<section class="py-5">
+  <div class="container py-4">
+    <p class="section-label fade-up">Documents</p>
+    <h2 class="section-title mb-5 fade-up">Files &amp; <em>Downloads</em></h2>
+    <div class="row g-3">
+      <!--
+        ══════════════════════════════════════
+        ADDITIONAL DOCUMENTS
+        To add a document:
+          1. Place the file in the documents/ folder
+          2. Copy one of the <div class="col-md-6"> blocks below
+          3. Update the href, doc-name, and doc-meta
+        ══════════════════════════════════════
+      -->
+      <div class="col-md-6 fade-up">
+        <a href="documents/madison-wasaff-resume.pdf" class="doc-card" target="_blank">
+          <div class="doc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </div>
+          <div>
+            <div class="doc-name">Resume</div>
+            <div class="doc-meta">PDF · madison-wasaff-resume.pdf</div>
+          </div>
+          <div class="ms-auto">↓</div>
+        </a>
+      </div>
+      <div class="col-md-6 fade-up">
+        <!--
+          Example: add a second document here
+          <a href="documents/your-file.pdf" class="doc-card" target="_blank">
+            <div class="doc-icon">...</div>
+            <div>
+              <div class="doc-name">Document Title</div>
+              <div class="doc-meta">PDF · description</div>
+            </div>
+          </a>
+        -->
+        <div class="doc-card" style="border-style:dashed;opacity:0.5;cursor:default;">
+          <div class="doc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+            </svg>
+          </div>
+          <div>
+            <div class="doc-name">Add Another Document</div>
+            <div class="doc-meta">Place file in documents/ folder</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section class="contact-strip">
+  <div class="container">
+    <p class="section-label justify-content-center mb-3">Let's Connect</p>
+    <a href="mailto:youremail@email.com" class="contact-email d-inline-block mb-4">
+      youremail@email.com
+    </a>
+    <br>
+    <div class="d-flex justify-content-center gap-3 mt-3">
+      <a href="#" class="social-btn" title="Instagram" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="2" width="20" height="20" rx="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+        </svg>
+      </a>
+      <a href="#" class="social-btn" title="LinkedIn" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="2" width="20" height="20" rx="3"/>
+          <path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-start gy-4">
+      <div class="col-lg-5">
+        <p class="footer-name">Madison Wasaff</p>
+        <p class="footer-tagline">Interactive Design &amp; Art Student</p>
+      </div>
+      <div class="col-lg-3 offset-lg-1">
+        <p class="footer-tagline mb-3">Navigation</p>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a class="footer-link" href="index.html">Home</a></li>
+          <li class="mb-2"><a class="footer-link" href="about.html">About</a></li>
+          <li class="mb-2"><a class="footer-link" href="ux-design.html">UX Design</a></li>
+          <li class="mb-2"><a class="footer-link" href="art.html">Art</a></li>
+          <li class="mb-2"><a class="footer-link" href="digital-design.html">Digital Design</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <p class="footer-copy mb-0"><span class="footer-accent-dot"></span>&copy; 2025 Madison Wasaff. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+  const nav = document.getElementById('siteNav');
+  window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 20));
+  const observer = new IntersectionObserver((e) => e.forEach(x => { if(x.isIntersecting) x.target.classList.add('visible'); }), {threshold: 0.12});
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
